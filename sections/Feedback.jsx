@@ -15,22 +15,20 @@ const Feedback = () => (
   >
     <motion.div
      variants={fadeIn('right', 'tween', 0.3, 1)}
-     className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05
-     sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
+     className=" lg:max-w-[370px] flex justify-end flex-col gradient-05
+     sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative flex-1"
     >
       <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px]
-          sm:leading-[40px] leading-[36px] text-white">Samantha</h4>
+          sm:leading-[40px] leading-[36px] text-white">Tony Stark</h4>
           <p className="mt-[8px] font-normal sm:text-[18px]
           text-[12px] sm:leading-[22px] leading-[16px] text-white">Founder | Metaversus</p>
         </div>
         <p className="mt-[24px] font-normal sm:text-[24px]
           text-[18px] sm:leading-[40px] leading-[35px] text-white text-justify">
-          with the emerging use in metaversus is pointing towards a great 
-          career and choice to become successful and make life enjoyable.
-          We can enter to a life of next level by visually adapting to some 
-          new environments.
+         
+"Congratulations, you've just unlocked the 'Grin from Ear to Ear' achievement by visiting our metaverse website! Our virtual squirrels have been working overtime to provide you with an experience  entertaining. If laughter is the best medicine, consider our metaverse for a perpetual smile."
         </p>
     </motion.div>
        <motion.div

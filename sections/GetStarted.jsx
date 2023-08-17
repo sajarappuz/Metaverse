@@ -15,11 +15,11 @@ const GetStarted = () => (
     className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
-      variants={planetVariants('left')}
-      className={`${styles.flexCenter} flex-1`}
+      variants={fadeIn('right', 'tween' , 0.5, 1)}
+      className=' flex-1'
       >
         <img    
-        src='/get-started.png'
+        src='/metagirl-transformed.png'
         alt='getstarted'
         className='w-[90%] h-[90%] object-contain '
         />

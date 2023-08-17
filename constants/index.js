@@ -27,23 +27,23 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Suit up in wild outfits',
+  'Choose a quirky sidekick',
+  'Battle through dance-offs for laughs!',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Fresh Realm',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Experience the latest update featuring an all-new world ready for you to explore. No need to worry, it is waiting for you to dive in!',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Enhanced Realism',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'In this latest update, behold the world with newfound realism as your eyes narrow, capturing every detail like never before.',
   },
 ];
 

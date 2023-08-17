@@ -19,7 +19,6 @@ const Page = () => (
      <World />
     <div className='relative'>
     
-    <Insights />
     <div className='gradient-03 z-0'/>
     <Feedback />
     </div> 
