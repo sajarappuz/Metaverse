@@ -6,13 +6,13 @@ import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from "../utils/motion"
 
 const Hero = () => (
-  <section className='w-full h-[100vh]mt-[100px] md:w-[100vw] sm:pl-16 pl-6'>
+  <section className='w-full h-[100vh] mt-[100px] md:w-[100vw] sm:pl-16 pl-6'>
     <motion.div
     variants={staggerContainer}
      initial='hidden'
      whileInView='show'
      viewport={{once: false, amount:0.25}}
-     className={`${styles.innerWidth} mx-auto flex md:flec-col`}
+     className={`${styles.innerWidth} mx-auto flex flex-col md:flex-row`}
     >
       <div className='flex justify-center items-center flex-col relative z-10 flex-1'>
         <motion.h1 variants={textVariant(1.1)}
